@@ -1,0 +1,99 @@
+#sideNewClient {
+	box-shadow: 7px 7px 41px #00000005, -7px -7px 41px #00000005;
+	transition: all 400ms !important;
+	background: white !important;
+	width: 280px !important;
+	position: fixed;
+	z-index: 999;
+	right: -280px;
+	height: 100%;
+	top: 0;
+}
+
+.sidebarShow {
+	right: 0 !important;
+}
+
+.sideContent {
+	padding: 50px 40px !important;
+}
+
+#sideNewClient h3 {
+	font-weight: 400 !important;
+	margin-bottom: 10px;
+	font-size: 1.5rem !important;
+	color: #000000de;
+}
+
+#sideNewClient p {
+	font-size: 0.7rem !important;
+	color: #00000090;
+}
+
+#sideNewClient input,
+#sideNewClient select,
+#sideNewClient button {
+	border: 1px solid #00000030;
+	margin-bottom: 5px !important;
+	padding: 10px 15px !important;
+	font-size: 0.9rem !important;
+	border-radius: 20px;
+}
+
+#sideNewClient label.input {
+	color: #00000090;
+	font-weight: 300 !important;
+	position: relative !important;
+	width: auto !important;
+	padding: 0px 7px !important;
+	font-size: 0.7rem;
+	background: #fff;
+	left: 10px;
+}
+
+.module {
+	padding-bottom: 10px !important;
+}
+
+/*================== VER */
+
+input[type=title] {
+	font-size: 2rem !important;
+	color: #00000070;
+	position: auto !important;
+	top: 0;
+	background: transparent;
+	padding: 0px;
+	margin-bottom: 0px;
+	border: none;
+}
+
+input,
+select,
+textarea {
+	border: 1px solid #00000030;
+	padding: 10px 15px;
+	position: relative;
+	width: 100% !important;
+	border-radius: 15px !important;
+	margin-bottom: 10px;
+	top: -7px;
+}
+
+label.input {
+	position: relative;
+	font-size: 0.7rem !important;
+	color: #00000080;
+	z-index: 10;
+	background: white;
+	padding: 0px 5px;
+	width: auto;
+	left: 10px;
+}
+
+h5.title {
+	font-size: 1.6rem;
+	color: #00000050;
+	font-weight: 300;
+	margin: 0px;
+}

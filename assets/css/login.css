@@ -1,0 +1,99 @@
+body {
+	background: #F8F8FD;
+}
+
+label.input {
+	color: #00000090;
+}
+
+input {
+	background: #ececee;
+}
+
+div.loginBox {
+	border-radius: 25px;
+	overflow: hidden;
+	box-shadow:  20px 20px 60px #bebebe20,
+             -20px -20px 60px #ffffff;
+}
+
+button.entrar {
+	width: 100%;
+	color: #161617;
+	margin-top: 5px;
+	font-size: 1rem;
+	font-weight: 400;
+	padding: 15px 0px;
+	border-radius: 15px;
+	background: transparent;
+	border: 1px solid #161617;
+	transition: 200ms all;
+}
+
+button.entrar:hover {
+	background: #161617;
+	color: white;
+}
+
+div.right {
+	background: #161617;
+/*	border-radius: 20px 0px 0px 20px;*/
+	color: transparent;
+}
+
+div.left {
+	padding: 50px;
+	background: #fff;
+}
+
+form {
+	margin-top: 15px;
+}
+
+hr {
+	border-color: #0000001c !important;
+}
+
+label.remember {
+	position: relative;
+	top: -3px !important;
+	font-size: 0.8rem;
+	margin-left: 7px;
+}
+
+div.right {
+	padding: 0px !important;
+	background-size: cover !important;
+	background-position: center center !important;
+}
+
+div.right div.bg {
+	height: 100%;
+	width: 100%;
+	background: #22464B30 !important;
+	padding: 0px !important;
+}
+
+@media only screen and (max-width: 600px) {
+	body {
+		background: white !important;
+	}
+	div.loginBox {
+		box-shadow: none !important;
+	}
+	.align {
+		transform: translateY(-55%) !important;
+	}
+}
+
+img.logo {
+	margin-bottom: 25px;
+	width: 100px !important;
+	cursor: pointer;
+}
+
+p.msg {
+	font-size: 0.8rem !important;
+	margin-top: 20px;
+	color: red;
+}
